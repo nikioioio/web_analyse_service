@@ -1,0 +1,2318 @@
+{% extends "main_app/index.html" %}
+{% load static %}
+
+{% block contents %}
+
+
+    <div class="row">
+        <div class="col-md-9 col-sm-9 col-xs-9">
+
+            <h3 style="text-align: center">Структура управления</h3>
+
+
+            <br>
+            <img src="{% static 'main_app/images/struct_upr.jpg' %}" style="width: 70%;position:relative;display:block; margin: auto">
+
+        </div>
+
+    </div>
+
+    <br>
+     <br>
+     <br>
+     <br>
+
+
+    <div class="row">
+        <div class="col-md-9 col-sm-9 col-xs-9">
+
+            <h3 style="text-align: center">Закрепление групп ТМЦ за специалистами Службы распределения и управления запасами</h3>
+
+            <br>
+
+
+
+
+            <table border="2" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <colgroup><col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        </colgroup><tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Группа </td>
+            <td class="column1 style1 s">Описание группы</td>
+            <td class="column2 style2 s">ФИО</td>
+            <td class="column3 style2 s">ФИО в случае отсутствия </td>
+            <td class="column4 style2 s">Местонахождение специалиста</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">01</td>
+            <td class="column1 style4 s">МЕТАЛЛОПРОКАТ</td>
+            <td class="column2 style5 s">Гурина И.С.</td>
+            <td class="column3 style5 s">Перфильева Н.Е.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style3 s">02</td>
+            <td class="column1 style4 s">МЕТАЛЛ ЦВЕТНОЙ  </td>
+            <td class="column2 style5 s">Сидоркин И.А.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style3 s">03</td>
+            <td class="column1 style4 s">МЕТИЗЫ, ФЕРРОСПЛАВЫ (МЕТАЛЛОИЗДЕЛИЯ)</td>
+            <td class="column2 style5 s">Худякова М.Н.</td>
+            <td class="column3 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style3 s">04</td>
+            <td class="column1 style4 s">РЕАКТИВЫ  </td>
+            <td class="column2 style5 s">Качесов А.А.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style3 s">05</td>
+            <td class="column1 style4 s">РЕАГЕНТЫ  </td>
+            <td class="column2 style5 s">Качесов А.А.</td>
+            <td class="column3 style5 s">Мельничук Н.К.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style3 s">06</td>
+            <td class="column1 style4 s">ГСМ  </td>
+            <td class="column2 style5 s">Мельничук Н.К.</td>
+            <td class="column3 style5 s">Качесов А.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style3 s">07</td>
+            <td class="column1 style4 s">РЕЗИНОТЕХНИЧЕСКИЕ ИЗДЕЛИЯ  </td>
+            <td class="column2 style5 s">Бородина Ю.Е.</td>
+            <td class="column3 style5 s">Ивенко А.В.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style3 s">08</td>
+            <td class="column1 style4 s">КОНСТРУКЦИОННЫЕ ПОЛИМЕРНЫЕ МАТЕРИАЛЫ</td>
+            <td class="column2 style5 s">Сидоркин И.А.</td>
+            <td class="column3 style5 s">Серегеева Т.И.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style3 s">10</td>
+            <td class="column1 style4 s">АСБОТЕХНИЧЕСКИЕ И ГРАФЛЕКС УПЛОТНИТЕЛЬНЫЙ МАТЕРИАЛ</td>
+            <td class="column2 style5 s">Томилова Е.П.</td>
+            <td class="column3 style5 s">Мельничук Н.К.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style3 s">11</td>
+            <td class="column1 style4 s">ПОДШИПНИКИ  </td>
+            <td class="column2 style5 s">Томилова Е.П.</td>
+            <td class="column3 style5 s">Мельничук Н.К.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style3 s">12</td>
+            <td class="column1 style4 s">ЗАПОРНАЯ АРМАТУРА, КОМПЛЕКТУЮЩИЕ, З/Ч К АРМАТУРЕ</td>
+            <td class="column2 style5 s">Ивенко А.В.</td>
+            <td class="column3 style5 s">Бородина Ю.Е.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style3 s">13</td>
+            <td class="column1 style4 s">ОГНЕУПОРНЫЕ, КИСЛОТОУПОРНЫЕ ИЗДЕЛИЯ</td>
+            <td class="column2 style5 s">Колосова М.Н.</td>
+            <td class="column3 style5 s">Шелухина Е.А.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style3 s">14</td>
+            <td class="column1 style4 s">МАТЕРИАЛЫ СТРОИТЕЛЬНЫЕ  </td>
+            <td class="column2 style5 s">Перфильева Н.Е.</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style3 s">15</td>
+            <td class="column1 style4 s">ИНСТРУМЕНТ  </td>
+            <td class="column2 style5 s">Бондаренко О.А.</td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style3 s">16</td>
+            <td class="column1 style4 s">ИЗДЕЛИЯ САНТЕХНИЧЕСКИЕ  </td>
+            <td class="column2 style5 s">Ларионова Г.В</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style3 s">17</td>
+            <td class="column1 style4 s">ИЗДЕЛИЯ СКОБЯНЫЕ И ЗАМОЧНЫЕ  </td>
+            <td class="column2 style5 s">Ларионова Г.В</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style3 s">18</td>
+            <td class="column1 style4 s">ЛАКОКРАСОЧНЫЕ МАТЕРИАЛЫ  </td>
+            <td class="column2 style5 s">Колосова М.Н.</td>
+            <td class="column3 style5 s">Шелухина Е.А.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style3 s">19</td>
+            <td class="column1 style4 s">ТКАНИ (КРОМЕ ОГНЕУПОРОВ), ОДЕЖДА, ОБУВЬ, КОЖА, ВОЙЛОК И ГАЛАНТЕРЕЯ</td>
+            <td class="column2 style5 s">Шелухина Е.А.</td>
+            <td class="column3 style5 s">Колосова М.Н.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style3 s">20</td>
+            <td class="column1 style4 s">З/Ч И КОМПЛЕКТ.К ВЫЧИС.И МНОЖИ Т.ТЕХНИКЕ</td>
+            <td class="column2 style5 s">Дранкович В.П.</td>
+            <td class="column3 style5 s">Нуксинова А.Х.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style3 s">21</td>
+            <td class="column1 style4 s">СПЕЦОДЕЖДА, СПЕЦОБУВЬ И СРЕДСТВА ИНДИВИДУАЛЬНОЙ ЗАЩИТЫ</td>
+            <td class="column2 style5 s">Ларионова Г.В</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style3 s">22</td>
+            <td class="column1 style4 s">МЫЛОМОЮЩИЕ СРЕДСТВА  </td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style3 s">23</td>
+            <td class="column1 style4 s">АККУМУЛЯТОРНЫЕ БАТАРЕИ И СУХИЕ ЭЛЕМЕНТЫ</td>
+            <td class="column2 style6 s">Томилова Е.П.</td>
+            <td class="column3 style6 s">Качесов А.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style3 s">24</td>
+            <td class="column1 style4 s">БУМАГА  </td>
+            <td class="column2 style5 s">Худякова М.Н.</td>
+            <td class="column3 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style3 s">25</td>
+            <td class="column1 style4 s">МЕДИКАМЕНТЫ  </td>
+            <td class="column2 style5 s">Качесов А.А.</td>
+            <td class="column3 style5 s">Мельничук Н.К.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style3 s">26</td>
+            <td class="column1 style4 s">КАНЦЕЛЯРСКИЕ ПРИНАДЛЕЖНОСТИ  </td>
+            <td class="column2 style5 s">Томилова Е.П.</td>
+            <td class="column3 style5 s">Качесов А.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style3 s">27</td>
+            <td class="column1 style4 s">ЛЕС И ИЗДЕЛИЯ ИЗ ЛЕСА  </td>
+            <td class="column2 style5 s">Шелухина Е.А.</td>
+            <td class="column3 style5 s">Колосова М.Н.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style3 s">28</td>
+            <td class="column1 style4 s">ХИМПОСУДА, ЛАБОРАТОРНЫЕ АКССЕСУАРЫ</td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style3 s">29</td>
+            <td class="column1 style4 s">КОВРОВЫЕ ИЗДЕЛИЯ  </td>
+            <td class="column2 style5 s">Шелухина Е.А.</td>
+            <td class="column3 style5 s">Колосова М.Н.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style3 s">30</td>
+            <td class="column1 style4 s">ГАЗОПЛАМЕННАЯ АППАРАТУРА  </td>
+            <td class="column2 style5 s">Колосова М.Н.</td>
+            <td class="column3 style5 s">Шелухина Е.А.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style3 s">32</td>
+            <td class="column1 style4 s">МЕТАЛЛОРУКАВ  </td>
+            <td class="column2 style5 s">Шелухина Е.А.</td>
+            <td class="column3 style5 s">Колосова М.Н.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style3 s">33</td>
+            <td class="column1 style4 s">ПОСУДА  </td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style3 s">34</td>
+            <td class="column1 style4 s">ЭЛЕКТРОИЗОЛЯЦИОННЫЕ МАТЕРИАЛЫ  </td>
+            <td class="column2 style5 s">Бородина Ю.Е.</td>
+            <td class="column3 style5 s">Ивенко А.В.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style3 s">35</td>
+            <td class="column1 style4 s">КАБЕЛЬНО-ПРОВОДНИКОВАЯ ПРОДУКЦ ИЯ,МУФТЫ</td>
+            <td class="column2 style5 s">Нуксинова А.Х.</td>
+            <td class="column3 style5 s">Дранкович В.П.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style3 s">36</td>
+            <td class="column1 style4 s">ТЕХНОЛОГИЧЕСКОЕ ОБОРУДОВАНИЕ И КОМПЛЕКТУЮЩИЕ К НЕМУ</td>
+            <td class="column2 style5 s">Мельничук Н.К.</td>
+            <td class="column3 style5 s">Качесов А.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style3 s">37</td>
+            <td class="column1 style4 s">ТОРГОВОЕ И МЕДИЦИНСКОЕ ОБОРУД ОВАНИЕ</td>
+            <td class="column2 style5 s">Бондаренко О.А.</td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style3 s">38</td>
+            <td class="column1 style4 s">ХИМИЧЕСКОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style5 s">Бондаренко О.А.</td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style3 s">39</td>
+            <td class="column1 style4 s">ВЫСОКОВОЛЬТНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style5 s">Дранкович В.П.</td>
+            <td class="column3 style5 s">Нуксинова А.Х.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style3 s">40</td>
+            <td class="column1 style4 s">НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style5 s">Дранкович В.П.</td>
+            <td class="column3 style5 s">Нуксинова А.Х.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style3 s">41</td>
+            <td class="column1 style4 s">ГРУЗОПОДЪЕМНОЕ ОБОРУДОВАНИЕ  З/Ч К НЕМУ</td>
+            <td class="column2 style5 s">Онищенко В.И.</td>
+            <td class="column3 style5 s">Горбатов С.А.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style3 s">42</td>
+            <td class="column1 style4 s">ПРИБОРЫ КИП И А, СРЕДСТВА СВЯЗИ, АНАЛИТИКА И З/Ч К НИМ</td>
+            <td class="column2 style5 s">Сергеева Т.И.</td>
+            <td class="column3 style5 s">Сидоркин И.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style3 s">43</td>
+            <td class="column1 style4 s">ЖЕЛЕЗНОДОРОЖНАЯ ТЕХНИКА, ОБОРУ ДОВАНИЕ И З/Ч И З/Ч К ЯК-42</td>
+            <td class="column2 style5 s">Перфильева Н.Е.</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style3 s">44</td>
+            <td class="column1 style4 s">АВТОМОТОТРАКТ-АЯ ТЕХНИКА И З/Ч  </td>
+            <td class="column2 style5 s">Ивенко А.В.</td>
+            <td class="column3 style5 s">Бородина Ю.Е.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style3 s">45</td>
+            <td class="column1 style4 s">ГОРНО-ШАХТНОЕ ОБОРУДОВАНИЕ, КОМПЛЕКТУЮЩИЕ, З/Ч</td>
+            <td class="column2 style5 s">Сидоркин И.А.</td>
+            <td class="column3 style5 s">Серегеева Т.И.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style3 s">46</td>
+            <td class="column1 style4 s">ПРИБОРЫ КИП И А, СРЕДСТВА СВЯЗИ, АНАЛИТИКА И З/Ч К НИМ</td>
+            <td class="column2 style5 s">Сергеева Т.И.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style3 s">47</td>
+            <td class="column1 style4 s">ЭЛЕКТРОДВИГАТЕЛИ, ГЕНЕРАТОРЫ, ПРИВОДЫ И З/Ч</td>
+            <td class="column2 style5 s">Сергеева Т.И.</td>
+            <td class="column3 style5 s">Мельничук Н.К.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style3 s">48</td>
+            <td class="column1 style4 s">ИЗМЕРИТЕЛЬНЫЕ ПРИБОРЫ  </td>
+            <td class="column2 style5 s">Сергеева Т.И.</td>
+            <td class="column3 style5 s">Сидоркин И.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style3 s">49</td>
+            <td class="column1 style4 s">Э/СВАРОЧНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style5 s">Шелухина Е.А.</td>
+            <td class="column3 style5 s">Колосова М.Н.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style3 s">50</td>
+            <td class="column1 style4 s">ТАРА И ТАРНЫЕ МАТЕРИАЛЫ  </td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style3 s">51</td>
+            <td class="column1 style4 s">ПРОКАТ ЦВЕТНЫХ МЕТАЛЛОВ  </td>
+            <td class="column2 style5 s">Гурина И.С.</td>
+            <td class="column3 style5 s">Перфильева Н.Е.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style3 s">52</td>
+            <td class="column1 style4 s">СВАРОЧНЫЙ МАТЕРИАЛ  </td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style3 s">54</td>
+            <td class="column1 style4 s">ЭЛЕКТРОБЫТОВЫЕ ПРИБОРЫ  </td>
+            <td class="column2 style5 s">Перфильева Н.Е.</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style3 s">55</td>
+            <td class="column1 style4 s">ПОЖАРНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style5 s">Бородина Ю.Е.</td>
+            <td class="column3 style5 s">Ивенко А.В.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style3 s">56</td>
+            <td class="column1 style4 s">ЛАМПЫ, ЭЛЕКТРОТЕХНИЧЕСКИЕ ИЗДЕЛИЯ</td>
+            <td class="column2 style5 s">Ларионова Г.В</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style3 s">57</td>
+            <td class="column1 style4 s">СВЕТИЛЬНИКИ  </td>
+            <td class="column2 style5 s">Ларионова Г.В</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style3 s">58</td>
+            <td class="column1 style4 s">ФОРМ.ОДЕЖДА, ОБУВЬ, СНАРЯЖ., АКСЕССУАРЫ, ОРУЖИЕ ДЛЯ ОХОТЫ</td>
+            <td class="column2 style5 s">Нуксинова А.Х.</td>
+            <td class="column3 style5 s">Дранкович В.П.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style3 s">59</td>
+            <td class="column1 style4 s">СПОРТИВНАЯ ФОРМА, СНАРЯЖЕНИЕ И СПОРТИНВЕНТАРЬ</td>
+            <td class="column2 style5 s">Перфильева Н.Е.</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style3 s">61</td>
+            <td class="column1 style4 s">ХИМИЧЕСКИЙ МАТЕРИАЛ  </td>
+            <td class="column2 style5 s">Качесов А.А.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style3 s">63</td>
+            <td class="column1 style4 s">ПЛОМБИРАТОРЫ, ПЛОМБЫ, БЛОКИРАТОР  </td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style3 s">65</td>
+            <td class="column1 style4 s">ПРОДУКТЫ  </td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style3 s">67</td>
+            <td class="column1 style4 s">ТРУБЫ И КОМПЛЕКТУЮЩИЕ К ТРУБАМ  </td>
+            <td class="column2 style5 s">Сидоркин И.А.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style3 s">69</td>
+            <td class="column1 style4 s">ГРАФИТ И ИЗДЕЛИЯ ИЗ ГРАФИТА  </td>
+            <td class="column2 style5 s">Колосова М.Н.</td>
+            <td class="column3 style5 s">Шелухина Е.А.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style3 s">70</td>
+            <td class="column1 style4 s">МЕБЕЛЬ  </td>
+            <td class="column2 style5 s">Нуксинова А.Х.</td>
+            <td class="column3 style5 s">Дранкович В.П.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style3 s">71</td>
+            <td class="column1 style4 s">СЫРЬЕ ДЛЯ ПЕРЕРАБОТКИ  </td>
+            <td class="column2 style5 s">Сидоркин И.А.</td>
+            <td class="column3 style5 s">Серегеева Т.И.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style3 s">72</td>
+            <td class="column1 style4 s">МЕТАЛЛОКОНСТРУКЦИИ  </td>
+            <td class="column2 style5 s">Гурина И.С.</td>
+            <td class="column3 style5 s">Перфильева Н.Е.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style3 s">73</td>
+            <td class="column1 style4 s">ЭЛЕКТРОТЕРМИЧЕСКОЕ ОБОРУДОВАНИЕ</td>
+            <td class="column2 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column3 style5 s">Худякова М.Н.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style3 s">74</td>
+            <td class="column1 style4 s">ТЯГОДУТЬЕВЫЕ МАШИНЫ И З/Ч  </td>
+            <td class="column2 style5 s">Худякова М.Н.</td>
+            <td class="column3 style5 s">Абдрахманова Д.Б.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style3 s">75</td>
+            <td class="column1 style4 s">ЭЛЕКТРОМОНТАЖНЫЕ ИЗДЕЛИЯ ТИПОВЫЕ (ЯЩИКИ, ПР, ПАНЕЛИ И ДР.)</td>
+            <td class="column2 style5 s">Сергеева Т.И.</td>
+            <td class="column3 style5 s">Сидоркин И.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style3 s">76</td>
+            <td class="column1 style4 s">НЕСТАНДАРТНОЕ ЭЛЕКТРООБОРУДОВАНИЕ</td>
+            <td class="column2 style5 s">Ивенко А.В.</td>
+            <td class="column3 style5 s">Бородина Ю.Е.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style3 s">77</td>
+            <td class="column1 style4 s">ГИДРОАППАРАТУРА, ПНЕВМОАППАРАТУРА</td>
+            <td class="column2 style5 s">Горбатов С.А.</td>
+            <td class="column3 style5 s">Онищенко В.И.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style3 s">78</td>
+            <td class="column1 style4 s">ЗАП.ЧАСТИ ЭЛЕКТРОТЕХНИЧЕСКИЕ  </td>
+            <td class="column2 style5 s">Дранкович В.П.</td>
+            <td class="column3 style5 s">Нуксинова А.Х.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style3 s">79</td>
+            <td class="column1 style4 s">ЛИТЬЕ  </td>
+            <td class="column2 style5 s">Мельничук Н.К.</td>
+            <td class="column3 style5 s">Качесов А.А.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style3 s">80</td>
+            <td class="column1 style4 s">ПОКОВКИ  </td>
+            <td class="column2 style5 s">Мельничук Н.К.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style3 s">81</td>
+            <td class="column1 style4 s">ШТАМПОВКИ  </td>
+            <td class="column2 style5 s">Мельничук Н.К.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style3 s">83</td>
+            <td class="column1 style4 s">РОЛИКИ, КРЮКИ, КОУШИ, СТРОПЫ, ЦЕПИ  </td>
+            <td class="column2 style5 s">Горбатов С.А.</td>
+            <td class="column3 style5 s">Онищенко В.И.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style3 s">84</td>
+            <td class="column1 style4 s">ОБОГАТИТЕЛЬНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style5 s">Онищенко В.И.</td>
+            <td class="column3 style5 s">Горбатов С.А.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style3 s">85</td>
+            <td class="column1 style4 s">ЗАПЧАСТИ МЕХАНИЧЕСКИЕ  </td>
+            <td class="column2 style5 s">Нуксинова А.Х.</td>
+            <td class="column3 style5 s">Дранкович В.П.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style3 s">86</td>
+            <td class="column1 style4 s">ПРУЖИНЫ  </td>
+            <td class="column2 style5 s">Мельничук Н.К.</td>
+            <td class="column3 style5 s">Томилова Е.П.</td>
+            <td class="column4 style5 s">Алтай</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style3 s">87</td>
+            <td class="column1 style4 s">ВЗРЫВЧАТЫЕ ВЕЩЕСТВА И СРЕДСТВА ВЗРЫВАНИЯ</td>
+            <td class="column2 style5 s">Перфильева Н.Е.</td>
+            <td class="column3 style5 s">Гурина И.С.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style3 s">88</td>
+            <td class="column1 style4 s">З/Ч К ГОРНО-ШАХТНОМУ И ОБОГАТИТЕЛЬНОМУ ОБОРУДОВАНИЮ</td>
+            <td class="column2 style5 s">Горбатов С.А.</td>
+            <td class="column3 style5 s">Онищенко В.И.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style3 s">89</td>
+            <td class="column1 style4 s">ЗАП.ЧАСТИ К ИМПОРТНОМУ САМОХОДНОМУ ОБОРУДОВАНИЮ</td>
+            <td class="column2 style5 s">Онищенко В.И.</td>
+            <td class="column3 style5 s">Горбатов С.А.</td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style3 s">90</td>
+            <td class="column1 style4 s">НЕСТАНДАРТНОЕ ТЕХНОЛОГИЧЕСКОЕ ОБОРУДОВАНИЕ</td>
+            <td class="column2 style5 s">Колосова М.Н.</td>
+            <td class="column3 style5 s">Шелухина Е.А.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style3 s">91</td>
+            <td class="column1 style4 s">ХОЗБЫТОВОЙ, АДМИН-НЫЙ ИНВЕНТАРЬ  </td>
+            <td class="column2 style5 s">Шелухина Е.А.</td>
+            <td class="column3 style5 s">Колосова М.Н.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style3 s">92</td>
+            <td class="column1 style4 s">ЮВЕЛИРНЫЙ МАТЕРИАЛ  </td>
+            <td class="column2 style5 s">Бородина Ю.Е.</td>
+            <td class="column3 style5 s">Ивенко А.В.</td>
+            <td class="column4 style5 s">Усть-Каменогорск</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style3 s">98</td>
+            <td class="column1 style4 s">СРЕДСТВА И ПРИБОРЫ ДЛЯ ГО И ЧС</td>
+            <td class="column2 style5 s">Бондаренко О.А.</td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 s">Риддер</td>
+          </tr>
+        </tbody>
+    </table>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+     <h3 style="text-align: center">Закрепление групп ТМЦ за специалистами Службы реализации и контроля состояния запасов</h3>
+
+            <br>
+
+
+
+
+    <table border="2" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <colgroup><col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        </colgroup><tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Группа </td>
+            <td class="column1 style1 s">Описание группы</td>
+            <td class="column2 style2 s">Усть-Каменогорск</td>
+            <td class="column3 style3 s">АТК</td>
+            <td class="column4 style4 s style4" colspan="3">КТТ</td>
+            <td class="column7 style1 s">ЖГОК</td>
+            <td class="column8 style1 s">СКЗ-Пирит</td>
+            <td class="column9 style1 s">ТБС. ТЛС. ТЭС. ч/л</td>
+            <td class="column10 style1 s">КИЭ</td>
+            <td class="column11 style1 s">КЦМР</td>
+            <td class="column12 style1 s">Промтепло </td>
+            <td class="column13 style1 s">ЮКО-Строй</td>
+            <td class="column14 style1 s">Джумба, Шаймерден, Узень</td>
+            <td class="column15 style1 s">Реализация ч/лицам и сторонним организациям</td>
+            <td class="column16 style1 s">Распределение и перемещение ОС</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style1 s">ФИО</td>
+            <td class="column3 style3 s">исполнитель</td>
+            <td class="column4 style1 s">исполнитель 1502</td>
+            <td class="column5 style1 s">исполнитель 1503</td>
+            <td class="column6 style1 s">исполнитель 1504</td>
+            <td class="column7 style1 s">исполнитель</td>
+            <td class="column8 style1 s">исполнитель</td>
+            <td class="column9 style1 s">исполнитель</td>
+            <td class="column10 style1 s">исполнитель</td>
+            <td class="column11 style1 s">исполнитель</td>
+            <td class="column12 style1 s">исполнитель</td>
+            <td class="column13 style1 s">исполнитель</td>
+            <td class="column14 style1 s">исполнитель</td>
+            <td class="column15 style1 s">исполнитель</td>
+            <td class="column16 style1 s">исполнитель</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style6 s">01</td>
+            <td class="column1 style7 s">МЕТАЛЛОПРОКАТ</td>
+            <td class="column2 style7 n">635</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style8 s">Огнева А.О.</td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style8 s">У-Ка Лымарева - И.А. (ОС) / Алексеева К.Д.</td>
+            <td class="column16 style8 s">г. Усть-Каменогорск - Лымарева И.А.</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style6 s">02</td>
+            <td class="column1 style7 s">МЕТАЛЛ ЦВЕТНОЙ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style8 s">г. Риддер - Левадний А.П.</td>
+            <td class="column16 style8 s">г. Риддер - Левадний А.П.</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style6 s">03</td>
+            <td class="column1 style7 s">МЕТИЗЫ, ФЕРРОСПЛАВЫ (МЕТАЛЛОИЗДЕЛИЯ)</td>
+            <td class="column2 style7 n">197</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style8 s">г. Алтай - Огнева А.О. /Яковлев (уголь)</td>
+            <td class="column16 style8 s">г. Алтай - Яковлев С.В.</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style6 s">04</td>
+            <td class="column1 style7 s">РЕАКТИВЫ  </td>
+            <td class="column2 style7 n">499</td>
+            <td class="column3 style8 s">Аманова К.Н.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style6 s">05</td>
+            <td class="column1 style7 s">РЕАГЕНТЫ  </td>
+            <td class="column2 style7 n">311</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style6 s">06</td>
+            <td class="column1 style7 s">ГСМ  </td>
+            <td class="column2 style7 n">516</td>
+            <td class="column3 style8 s">Аманова К.Н.</td>
+            <td class="column4 style8 s">Алексеева К. диз. топливо</td>
+            <td class="column5 style8 s">Левадний А.П., кроме д.т.</td>
+            <td class="column6 style8 s">Яковлев С.В. кроме д.т.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style8 s">Яковлев С.В.</td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style6 s">07</td>
+            <td class="column1 style7 s">РЕЗИНОТЕХНИЧЕСКИЕ ИЗДЕЛИЯ  </td>
+            <td class="column2 style7 n">114</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style6 s">08</td>
+            <td class="column1 style7 s">КОНСТРУКЦИОННЫЕ ПОЛИМЕРНЫЕ МАТЕРИАЛЫ</td>
+            <td class="column2 style7 n">8</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style6 s">10</td>
+            <td class="column1 style7 s">АСБОТЕХНИЧЕСКИЕ И ГРАФЛЕКС УПЛОТНИТЕЛЬНЫЙ МАТЕРИАЛ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style6 s">11</td>
+            <td class="column1 style7 s">ПОДШИПНИКИ  </td>
+            <td class="column2 style7 n">273</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style6 s">12</td>
+            <td class="column1 style7 s">ЗАПОРНАЯ АРМАТУРА, КОМПЛЕКТУЮЩИЕ, З/Ч К АРМАТУРЕ</td>
+            <td class="column2 style7 n">196</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style6 s">13</td>
+            <td class="column1 style7 s">ОГНЕУПОРНЫЕ, КИСЛОТОУПОРНЫЕ ИЗДЕЛИЯ</td>
+            <td class="column2 style7 n">45</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style6 s">14</td>
+            <td class="column1 style7 s">МАТЕРИАЛЫ СТРОИТЕЛЬНЫЕ  </td>
+            <td class="column2 style7 n">82</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style8 s">Левадний А.П./Огнева А.О.(цемент., граншлак)</td>
+            <td class="column11 style8 s">Левадний А.П./Огнева А.О. (цемент по Риддеру и по ЖГОК)+ щебень, песок , известь</td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style8 s">Аманова К.</td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style6 s">15</td>
+            <td class="column1 style7 s">ИНСТРУМЕНТ  </td>
+            <td class="column2 style7 n">2263</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style6 s">16</td>
+            <td class="column1 style7 s">ИЗДЕЛИЯ САНТЕХНИЧЕСКИЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style6 s">17</td>
+            <td class="column1 style7 s">ИЗДЕЛИЯ СКОБЯНЫЕ И ЗАМОЧНЫЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style6 s">18</td>
+            <td class="column1 style7 s">ЛАКОКРАСОЧНЫЕ МАТЕРИАЛЫ  </td>
+            <td class="column2 style7 n">370</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style6 s">19</td>
+            <td class="column1 style7 s">ТКАНИ (КРОМЕ ОГНЕУПОРОВ), ОДЕЖДА, ОБУВЬ, КОЖА, ВОЙЛОК И ГАЛАНТЕРЕЯ</td>
+            <td class="column2 style7 n">3</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style8 s">Аманова К.</td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style6 s">21</td>
+            <td class="column1 style7 s">СПЕЦОДЕЖДА, СПЕЦОБУВЬ И СРЕДСТВА ИНДИВИДУАЛЬНОЙ ЗАЩИТЫ</td>
+            <td class="column2 style7 n">289</td>
+            <td class="column3 style8 s">Аманова К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style8 s">Аманова К.</td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style6 s">22</td>
+            <td class="column1 style7 s">МЫЛОМОЮЩИЕ СРЕДСТВА  </td>
+            <td class="column2 style7 n">67</td>
+            <td class="column3 style8 s">Аманова К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style8 s">Аманова К.</td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style6 s">23</td>
+            <td class="column1 style7 s">АККУМУЛЯТОРНЫЕ БАТАРЕИ И СУХИЕ ЭЛЕМЕНТЫ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style6 s">24</td>
+            <td class="column1 style7 s">БУМАГА  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Аманова К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Аманова К.</td>
+            <td class="column9 style8 s">Аманова К.</td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style6 s">25</td>
+            <td class="column1 style7 s">МЕДИКАМЕНТЫ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style6 s">26</td>
+            <td class="column1 style7 s">КАНЦЕЛЯРСКИЕ ПРИНАДЛЕЖНОСТИ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Алексеева К.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style6 s">27</td>
+            <td class="column1 style7 s">ЛЕС И ИЗДЕЛИЯ ИЗ ЛЕСА  </td>
+            <td class="column2 style7 n">91</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style6 s">28</td>
+            <td class="column1 style7 s">ХИМПОСУДА, ЛАБОРАТОРНЫЕ АКССЕСУАРЫ</td>
+            <td class="column2 style7 n">475</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style6 s">29</td>
+            <td class="column1 style7 s">КОВРОВЫЕ ИЗДЕЛИЯ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style6 s">30</td>
+            <td class="column1 style7 s">ГАЗОПЛАМЕННАЯ АППАРАТУРА  </td>
+            <td class="column2 style7 n">119</td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style6 s">32</td>
+            <td class="column1 style7 s">МЕТАЛЛОРУКАВ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style6 s">33</td>
+            <td class="column1 style7 s">ПОСУДА  </td>
+            <td class="column2 style7 n">27</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style6 s">34</td>
+            <td class="column1 style7 s">ЭЛЕКТРОИЗОЛЯЦИОННЫЕ МАТЕРИАЛЫ  </td>
+            <td class="column2 style7 n">69</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style6 s">35</td>
+            <td class="column1 style7 s">КАБЕЛЬНО-ПРОВОДНИКОВАЯ ПРОДУКЦ ИЯ,МУФТЫ</td>
+            <td class="column2 style7 n">656</td>
+            <td class="column3 style8 s">Аманова К.Н.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style6 s">36</td>
+            <td class="column1 style7 s">ТЕХНОЛОГИЧЕСКОЕ ОБОРУДОВАНИЕ И КОМПЛЕКТУЮЩИЕ К НЕМУ</td>
+            <td class="column2 style7 n">18</td>
+            <td class="column3 style8 s">Аманова К.Н.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style6 s">37</td>
+            <td class="column1 style7 s">ТОРГОВОЕ И МЕДИЦИНСКОЕ ОБОРУД ОВАНИЕ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style6 s">38</td>
+            <td class="column1 style7 s">ХИМИЧЕСКОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style6 s">39</td>
+            <td class="column1 style7 s">ВЫСОКОВОЛЬТНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style7 n">8</td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style6 s">40</td>
+            <td class="column1 style7 s">НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style6 s">41</td>
+            <td class="column1 style7 s">ГРУЗОПОДЪЕМНОЕ ОБОРУДОВАНИЕ  З/Ч К НЕМУ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style6 s">42</td>
+            <td class="column1 style7 s">ПРИБОРЫ КИП И А, СРЕДСТВА СВЯЗИ, АНАЛИТИКА И З/Ч К НИМ</td>
+            <td class="column2 style7 n">2</td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style6 s">43</td>
+            <td class="column1 style7 s">ЖЕЛЕЗНОДОРОЖНАЯ ТЕХНИКА, ОБОРУ ДОВАНИЕ И З/Ч И З/Ч К ЯК-42</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style6 s">44</td>
+            <td class="column1 style7 s">АВТОМОТОТРАКТ-АЯ ТЕХНИКА И З/Ч  </td>
+            <td class="column2 style7 n">322</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style6 s">45</td>
+            <td class="column1 style7 s">ГОРНО-ШАХТНОЕ ОБОРУДОВАНИЕ, КОМПЛЕКТУЮЩИЕ, З/Ч</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style6 s">46</td>
+            <td class="column1 style7 s">ПРИБОРЫ КИП И А, СРЕДСТВА СВЯЗИ, АНАЛИТИКА И З/Ч К НИМ</td>
+            <td class="column2 style7 n">24</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style6 s">47</td>
+            <td class="column1 style7 s">ЭЛЕКТРОДВИГАТЕЛИ, ГЕНЕРАТОРЫ, ПРИВОДЫ И З/Ч</td>
+            <td class="column2 style7 n">4</td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style6 s">48</td>
+            <td class="column1 style7 s">ИЗМЕРИТЕЛЬНЫЕ ПРИБОРЫ  </td>
+            <td class="column2 style7 n">34</td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style6 s">49</td>
+            <td class="column1 style7 s">Э/СВАРОЧНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style6 s">50</td>
+            <td class="column1 style7 s">ТАРА И ТАРНЫЕ МАТЕРИАЛЫ  </td>
+            <td class="column2 style7 n">226</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style6 s">51</td>
+            <td class="column1 style7 s">ПРОКАТ ЦВЕТНЫХ МЕТАЛЛОВ  </td>
+            <td class="column2 style7 n">14</td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style6 s">52</td>
+            <td class="column1 style7 s">СВАРОЧНЫЙ МАТЕРИАЛ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style6 s">54</td>
+            <td class="column1 style7 s">ЭЛЕКТРОБЫТОВЫЕ ПРИБОРЫ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style6 s">55</td>
+            <td class="column1 style7 s">ПОЖАРНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style7 n">14</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style6 s">56</td>
+            <td class="column1 style7 s">ЛАМПЫ, ЭЛЕКТРОТЕХНИЧЕСКИЕ ИЗДЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style6 s">57</td>
+            <td class="column1 style7 s">СВЕТИЛЬНИКИ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style6 s">58</td>
+            <td class="column1 style7 s">ФОРМ.ОДЕЖДА, ОБУВЬ, СНАРЯЖ., АКСЕССУАРЫ, ОРУЖИЕ ДЛЯ ОХОТЫ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style6 s">59</td>
+            <td class="column1 style7 s">СПОРТИВНАЯ ФОРМА, СНАРЯЖЕНИЕ И СПОРТИНВЕНТАРЬ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style6 s">61</td>
+            <td class="column1 style7 s">ХИМИЧЕСКИЙ МАТЕРИАЛ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style6 s">63</td>
+            <td class="column1 style7 s">ПЛОМБИРАТОРЫ, ПЛОМБЫ, БЛОКИРАТОР  </td>
+            <td class="column2 style7 n">23</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style6 s">65</td>
+            <td class="column1 style7 s">ПРОДУКТЫ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К. (вода)</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style6 s">67</td>
+            <td class="column1 style7 s">ТРУБЫ И КОМПЛЕКТУЮЩИЕ К ТРУБАМ  </td>
+            <td class="column2 style7 n">225</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style6 s">69</td>
+            <td class="column1 style7 s">ГРАФИТ И ИЗДЕЛИЯ ИЗ ГРАФИТА  </td>
+            <td class="column2 style7 n">38</td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style6 s">70</td>
+            <td class="column1 style7 s">МЕБЕЛЬ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style6 s">71</td>
+            <td class="column1 style7 s">СЫРЬЕ ДЛЯ ПЕРЕРАБОТКИ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style6 s">72</td>
+            <td class="column1 style7 s">МЕТАЛЛОКОНСТРУКЦИИ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style6 s">73</td>
+            <td class="column1 style7 s">ЭЛЕКТРОТЕРМИЧЕСКОЕ ОБОРУДОВАНИЕ</td>
+            <td class="column2 style7 n">18</td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style6 s">74</td>
+            <td class="column1 style7 s">ТЯГОДУТЬЕВЫЕ МАШИНЫ И З/Ч  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style6 s">75</td>
+            <td class="column1 style7 s">ЭЛЕКТРОМОНТАЖНЫЕ ИЗДЕЛИЯ ТИПОВЫЕ (ЯЩИКИ, ПР, ПАНЕЛИ И ДР.)</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style6 s">76</td>
+            <td class="column1 style7 s">НЕСТАНДАРТНОЕ ЭЛЕКТРООБОРУДОВАНИЕ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style6 s">77</td>
+            <td class="column1 style7 s">ГИДРОАППАРАТУРА, ПНЕВМОАППАРАТУРА</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style6 s">78</td>
+            <td class="column1 style7 s">ЗАП.ЧАСТИ ЭЛЕКТРОТЕХНИЧЕСКИЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Яковлев С.В.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style6 s">79</td>
+            <td class="column1 style7 s">ЛИТЬЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style6 s">80</td>
+            <td class="column1 style7 s">ПОКОВКИ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style6 s">81</td>
+            <td class="column1 style7 s">ШТАМПОВКИ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style6 s">83</td>
+            <td class="column1 style7 s">РОЛИКИ, КРЮКИ, КОУШИ, СТРОПЫ, ЦЕПИ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style6 s">84</td>
+            <td class="column1 style7 s">ОБОГАТИТЕЛЬНОЕ ОБОРУДОВАНИЕ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style6 s">85</td>
+            <td class="column1 style7 s">ЗАПЧАСТИ МЕХАНИЧЕСКИЕ  </td>
+            <td class="column2 style7 n">1060</td>
+            <td class="column3 style8 s">Аманова К.Н.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style6 s">86</td>
+            <td class="column1 style7 s">ПРУЖИНЫ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style6 s">87</td>
+            <td class="column1 style7 s">ВЗРЫВЧАТЫЕ ВЕЩЕСТВА И СРЕДСТВА ВЗРЫВАНИЯ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style8 s">Огнева А.О.</td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style6 s">88</td>
+            <td class="column1 style7 s">З/Ч К ГОРНО-ШАХТНОМУ И ОБОГАТИТЕЛЬНОМУ ОБОРУДОВАНИЮ</td>
+            <td class="column2 style7 n">1595</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style6 s">89</td>
+            <td class="column1 style7 s">ЗАП.ЧАСТИ К ИМПОРТНОМУ САМОХОДНОМУ ОБОРУДОВАНИЮ</td>
+            <td class="column2 style7 n">1222</td>
+            <td class="column3 style8 s">Алексеева К.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style6 s">90</td>
+            <td class="column1 style7 s">НЕСТАНДАРТНОЕ ТЕХНОЛОГИЧЕСКОЕ ОБОРУДОВАНИЕ</td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style6 s">91</td>
+            <td class="column1 style7 s">ХОЗБЫТОВОЙ, АДМИН-НЫЙ ИНВЕНТАРЬ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 s">Алексеева К.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style6 s">92</td>
+            <td class="column1 style7 s">ЮВЕЛИРНЫЙ МАТЕРИАЛ  </td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Левадний А.П.</td>
+            <td class="column4 style8 s">Огнева А.О.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Яковлев С.В.</td>
+            <td class="column7 style8 s">Огнева А.О.</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style9 null"></td>
+            <td class="column1 style7 s">ZZ  номенклатура и ОС</td>
+            <td class="column2 style9 null"></td>
+            <td class="column3 style8 s">Лымарева И.А.</td>
+            <td class="column4 style8 s">Лымарева И.А.</td>
+            <td class="column5 style8 s">Левадний А.П.</td>
+            <td class="column6 style8 s">Лымарева И.А.</td>
+            <td class="column7 style8 s">Лымарева И.А.</td>
+            <td class="column8 style8 s">Лымарева И.А.</td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style8 s">Лымарева И.А.</td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style9 null"></td>
+            <td class="column1 style10 s style12" colspan="4">Реализация ч/лицам и сторонним организациям</td>
+            <td class="column5 style9 null"></td>
+            <td class="column6 style9 null"></td>
+            <td class="column7 style9 null"></td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12 style9 null"></td>
+            <td class="column13 style9 null"></td>
+            <td class="column14 style9 null"></td>
+            <td class="column15 style9 null"></td>
+            <td class="column16 style9 null"></td>
+          </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <br>
+     <br>
+     <br>
+     <br>
+
+{% endblock %}

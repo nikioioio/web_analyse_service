@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    {% load static %}
+
+    <script src="{% static 'main_app/js/jquery-3.5.0.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'main_app/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'main_app/css/main.css' %}">
+
+    <title>
+        {% block title %}
+        Начальный экран
+        {% endblock %}
+    </title>
+</head>
+<body>
+
+
+
+
+<body>
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #eeeeee">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+            </button>
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-2 ">
+                    <a class = 'navbar-left' href="#">
+                        <img src="{% static 'main_app/images/log.jpg' %}" style="width: 50%;position:relative">
+                    </a>
+                </div>
+                <!--<div class="col-md-1 col-sm-1 col-xs-1 ">-->
+                    <!--<a class="navbar-brand" href="/upr"><i class="fas fa-home"></i></a>-->
+                <!--</div>-->
+                <div class="col-md-8 col-sm-8 col-xs-8 ">
+                    <a class="navbar-brand" href="#"><h4>KAZZINC Управление запасов</h4></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2 ">
+                    <a class="navbar-brand" href="#"><h4>Выход</h4></a>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            {#          <ul class="nav navbar-nav navbar-right">#}
+            {#            <li><a href="#">Dashboard</a></li>#}
+            {#          </ul>#}
+            <!--<form class="navbar-form navbar-right">-->
+            <!--<input type="text" class="form-control" placeholder="Search...">-->
+            <!--</form>-->
+        </div>
+    </div>
+
+
+
+
+</nav>
+
+
+<div id="'fff" class="container-fluid body_">
+
+    <!--<div class="row">-->
+    <div class="col-md-2 col-sm-2 col-xs-2">
+        <ul class="nav nav-sidebar sidebar"style="width: 300px;margin-top: 40pt;background-color: #eeeeee;padding-top: 4%">
+            <!--<li><a href="#">F_level_1</a></li>-->
+            <!--<span>Внутренние отчеты</span>-->
+
+            <br>
+            <!--<li><a href="#">F_level_1_rev_2</a></li>-->
+            <!--<li><a href="#">Dashboard</a></li>-->
+            <!--<li><a href="#">Отчет4</a></li>-->
+            <!--<li><a href="#">Отчет5</a></li>-->
+            <!--<li><a href="#">Отчет6</a></li>-->
+            <!--<li><a href="#">Отчет7</a></li>-->
+            <!--<li>-->
+
+
+
+            <a href="/upr"   data-target="#submenu-ob_upr"><i class="fa fa-fw fa-university"></i> ОБ УПРАВЛЕНИИ <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+            <ul id="submenu-ob_upr" >
+            <br>
+                <li><a href="/upr/ruk"><i class="fa fa-angle-double-right"></i> Руководитель управления</a></li>
+                <br>
+                <li><a href="/upr/strukt"><i class="fa fa-angle-double-right"></i> Структура управления</a></li>
+                <br>
+                <li><a href="/upr/polozh"><i class="fa fa-angle-double-right"></i> Положение об управлении </a></li>
+                <br>
+
+            </ul>
+
+            <br>
+            <br>
+            <ul>
+
+            </ul>
+
+
+
+            <a id="form1" href="/news"><i class="fa fa-rss" style="margin-left: 3px"></i> НОВОСТИ(INDEX)</a>
+
+
+
+            <br>
+            <br>
+
+
+
+
+
+            <a href="/infocentr"  data-target="#submenu-infoc"><i class="fa fa-fw fa-database"></i> ИНФОЦЕНТР <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+            <ul id="submenu-infoc" >
+            <br>
+{#                <a href="#"  data-target="#submenu-infoc-plany"><i class="fa fa-fw fa-search"></i> ПЛАНЫ МЕРОПРИЯТИЙ <i class="fa fa-fw fa-angle-down pull-right"></i></a>#}
+
+<!--                <li><a href="/infocentr/pl_mer"><i class="fa fa-angle-double-right"></i> ПЛАНЫ МЕРОПРИЯТИЙ</a></li>-->
+
+<!--{#                <ul id="submenu-infoc-plany" >#}-->
+<!--{#                    <br>#}-->
+<!--{#                    <li><a href="#"><i class="fa fa-angle-double-right"></i> СПиА</a></li>#}-->
+<!--{#                    <br>#}-->
+<!--{#                    <li><a href="#"><i class="fa fa-angle-double-right"></i> СРиУЗ</a></li>#}-->
+<!--{#                    <br>#}-->
+<!--{#                    <li><a href="#"><i class="fa fa-angle-double-right"></i> СРиКСЗ</a></li>#}-->
+<!--{#                    <br>#}-->
+<!--{#                </ul>#}-->
+<!--                <br>-->
+                <br>
+                 <a href="/infocentr/ism"  data-target="#submenu-infoc-ism"><i class="fa fa-fw fa-search"></i> ИСМ <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+
+                <ul id="submenu-infoc-ism" >
+                    <br>
+                    <li><a href="/infocentr/ism/docs"><i class="fa fa-angle-double-right"></i> Инструкции УЗ</a></li>
+                    <br>
+                    <li><a href="/infocentr/ism/docs"><i class="fa fa-angle-double-right"></i> Инструкции используемые в работе УЗ</a></li>
+                    <br>
+
+                </ul>
+                  <br>
+                <br>
+                <li><a href="/infocentr/ism/card_process"><i class="fa fa-angle-double-right"></i> Карты процессов</a></li>
+
+            </ul>
+
+
+            <br>
+            <br>
+
+
+            <a href="#" data-toggle="collapse" data-target="#submenu-service"><i class="fa fa-fw fa-search-dollar"></i> СЕРВИСЫ <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+            <ul id="submenu-service" class="collapse">
+
+                <br>
+
+                <li><a href="#"><i class="fa fa-angle-double-right"></i> Заявка на транспорт</a></li>
+
+
+
+
+
+            </ul>
+
+
+            <br>
+            <br>
+
+            <a href="/reports"  data-target="#submenu-analyt"><i class="fa fa-fw fa-signal" ></i> АНАЛИТИКА <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+            <ul id="submenu-analyt">
+                <br>
+
+                <a href="/reports/reports_one"  data-target="#submenu-1"><i class="fa fa-fw fa-search"></i> ВНУТРЕННИЕ ОТЧЕТЫ УЗ <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+
+                <ul id="submenu-1" >
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Анализ достижения ЦУО и KPI вовлечения невостребованных запасов</a></li>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> KPI распределения запасов</a></li>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Отчёт по дебиторской задолженности по контрагентам</a></li>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Отчёт по статусам контрактов</a></li>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Отчёт по цементу, взрывчатым материалам, щебню и песку к/з</a></li>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Отчёт по динамике реализации АТК и ЖГОК</a></li>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Анализ уровня невостребованных МТР и график ликвидации</a></li>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Анализ уровня невостребованных МТР и график ликвидации по категории "Огнеупоры"</a></li>
+                    <br>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Сводка по запросам реализации ликвидных невостребованных МТР</a></li>
+                    <br>
+                    <br>
+                    <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Отчёт по статусу оформления заявок NB06</a></li>
+                </ul>
+                <br>
+                <br>
+
+                <a href="/reports/reports_two"  data-target="#submenu-2"><i class="fa fa-fw fa-search"></i> ВНЕШНИЕ ОТЧЕТЫ УЗ <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+                <ul id="submenu-2" >
+                    <br>
+                    <a href="/reports/reports_three"  data-target="#submenu-3"><i class="fa fa-fw fa-search"></i> ИТОГОВАЯ ОТЧЕТНОСТЬ <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+
+                    <ul id="submenu-3" >
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Анализ по достижению ЦУО</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Обеспеченность материалами на начало периода</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Исполнение плана потребности (KPI по вовлечению)</a></li>
+                    </ul>
+                    <br>
+                    <br>
+                    <a href="/reports/reports_four"  data-target="#submenu-4"><i class="fa fa-fw fa-search"></i> ОПЕРАЦИОННАЯ ОТЧЕТНОСТЬ <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+                    <ul id="submenu-4" >
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Открытая прочая потребность прошлых периодов</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Статусы выполнения корректировок открытой потребности прошлых периодов</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Обеспеченность ТНСЗ на начало периода</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Уровень запаса на прицеховых складах Компании</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Уровень запаса по сервисным контрактам</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Результаты проведения ППМ в SAP</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Анализ по неотфактурованным поставкам для ДП на складах Компании</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Отклонение потребности по производственным заводам</a></li>
+                        <br>
+                        <li><a href="/reports/rep_template"><i class="fa fa-angle-double-right"></i> Анализ запаса по инвестиционной деятельности</a></li>
+                    </ul>
+
+                </ul>
+
+
+            </ul>
+
+            <br>
+            <br>
+
+            <a href="/obuch"  data-target="#submenu-obuch"><i class="fa fa-fw fa-graduation-cap"></i> ОБУЧЕНИЕ ПЕРСОНАЛА <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+            <ul id="submenu-obuch" >
+
+                <br>
+
+                <li><a href="/obuch/calendar/"><i class="fa fa-angle-double-right"></i> Календарь</a></li>
+
+                <br>
+
+                <li><a href="/obuch/present/"><i class="fa fa-angle-double-right"></i> Презентация(Видеоуроки)</a></li>
+
+
+
+                    <br>
+
+                </ul>
+
+            </ul>
+
+
+            </li>
+        </ul>
+
+
+    </div>
+
+    <!--<div class="col-md-9 col-sm-9 col-xs-9">-->
+
+
+    <div class="col-md-10 col-sm-10 col-xs-10" style="position: relative;padding-left: 100px;margin-top: 7%">
+        {% block contents %}
+
+            {{ hello}}
+        {% endblock %}
+
+
+
+
+
+    </div>
+
+
+    <!--</div>-->
+
+    <!--</div>-->
+
+
+</div>
+
+
+
+<script>
+    var s = 0
+    $('.sidebar').scroll(function(){
+        s = $(this).scrollTop();
+        localStorage.setItem("myKey",s);
+
+});
+
+
+$(document).ready(function () {
+
+    console.log($('.sidebar').scrollTop(localStorage.getItem("myKey")))
+
+})
+</script>
+
+
+{#<script src="{% static 'main_app/js/js.js' %}"></script>#}
+<script src="{% static 'main_app/js/bootstrap.js' %}"></script>
+
+
+
+<script type="text/javascript" src="{% static 'main_app/js/ajax.js' %}"></script>
+
+</body>
+
+
+
+
+</body>
+
+</html>
